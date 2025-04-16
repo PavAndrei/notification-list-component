@@ -1,0 +1,84 @@
+.item,
+.itemActive {
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+
+  cursor: pointer;
+
+  transition: background-color 0.4s ease-in-out;
+}
+
+.itemActive {
+  background-color: var(--neutral-dark);
+}
+
+.info {
+  display: flex;
+  transform: translateY(10px);
+  align-items: flex-end;
+  gap: 20px;
+
+  margin-bottom: 20px;
+}
+
+.nickname {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.message {
+  font-size: 20px;
+  color: var(--darker);
+}
+
+.react {
+  font-weight: 800;
+  color: var(--darker);
+  font-size: 22px;
+}
+
+.decor {
+  background-color: var(--red);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  transform: translateY(-75%);
+}
+
+.group {
+  font-weight: 800;
+  color: var(--blue);
+  font-size: 22px;
+}
+
+.date {
+  font-weight: 500;
+  color: var(--darker);
+  font-size: 22px;
+
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 22px;
+  padding: 20px;
+  border: 1px solid var(--gray);
+  border-radius: 12px;
+  color: var(--darker);
+}
+
+.picture {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* --lightest: hsl(0, 0%, 100%);
+--lighter: hsl(210, 60%, 98%);
+--neutral-dark: hsl(211, 68%, 94%);
+--neutral-light: hsl(205, 33%, 90%);
+--gray: hsl(219, 14%, 63%);
+--darker: hsl(219, 12%, 42%);
+--darkest: hsl(224, 21%, 14%); */

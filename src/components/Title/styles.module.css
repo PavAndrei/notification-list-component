@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  font-weight: 800;
+}
+
+.title {
+  font-size: 32px;
+  color: var(--darkest);
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+
+  font-size: 48px;
+  background-color: var(--blue);
+  color: var(--lightest);
+  padding: 5px 25px;
+  border-radius: 25%;
+
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
