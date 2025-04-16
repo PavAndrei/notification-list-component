@@ -11,6 +11,7 @@ export const NotificationItem = ({
   time,
   text,
   removeItemActivity,
+  group,
 }) => {
   return (
     <li
@@ -26,7 +27,7 @@ export const NotificationItem = ({
           <span className={styles.message}>{message}</span>
           {type === "react" && <span className={styles.react}>{message}</span>}
           {(type === "join" || type === "left") && (
-            <span className={styles.group}>{message}</span>
+            <span className={styles.group}>{group}</span>
           )}
           {!isRead && <span className={styles.decor}></span>}
         </div>

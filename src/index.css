@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+#root {
+  min-height: 100%;
+}
+
 body {
   --red: hsl(1, 90%, 64%);
   --blue: hsl(219, 85%, 26%);
@@ -33,6 +37,10 @@ button {
 
 span {
   display: block;
+}
+
+img {
+  object-fit: cover;
 }
 
 ul,

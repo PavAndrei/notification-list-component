@@ -21,6 +21,7 @@ export const NotificationList = () => {
             time={item.time}
             picture={item.picture}
             text={item.text}
+            group={item.group}
             removeItemActivity={removeItemActivity}
           />
         );
